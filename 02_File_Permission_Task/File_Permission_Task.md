@@ -21,7 +21,6 @@
 #### 01_Q. Create a file with .txt extension (/home/demo.txt). Change the permission set of that file, so that any user can read it, group can read/write & owner can read/write/execute it.
 
 
-
 #### Opened bash shell on my laptop and perfomed the assigned task on it and pushed it on GitHub repository.
 #### To complete the task activity, observed the following points and perform the suggested steps.
 - [A] Create file unter the path: 
@@ -38,8 +37,19 @@
   - -rw-rw-r-- 1 md_rustam md_rustam 138761 Apr 21 19:47 SnapShot.jpg
 
 - md_rustam@DESKTOP-CPK0PUB:~/Guvi_DevOps$ git add .; git commit -m "02_File_Permission_Task"; git push origin main
-  - Everything up-to-date
-  - Everything up-to-date
+  - [main b6433de] 02_File_Permission_Task
+  - 3 files changed, 68 insertions(+), 18 deletions(-)
+  - create mode 100644 02_File_Permission_Task/File_Permission_Task.md
+  - create mode 100644 02_File_Permission_Task/SnapShot.jpg
+  - Enumerating objects: 8, done.
+  - Counting objects: 100% (8/8), done.
+  - Delta compression using up to 8 threads
+  - Compressing objects: 100% (6/6), done.
+  - Writing objects: 100% (6/6), 132.52 KiB | 22.09 MiB/s, done.
+  - Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+  - remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+  - To https://github.com/StarGithMd/Guvi_Class.git
+  - c5415a3..b6433de  main -> main
 
 - md_rustam@DESKTOP-CPK0PUB:~/Guvi_DevOps$ git status
   - On branch main
