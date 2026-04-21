@@ -71,3 +71,22 @@
 - Verify that the service is listening:
   - sudo lsof -i:9000
   - sudo netstat -tulnp | grep 9000
+  
+***************************************************************************************************************
+- md_rustam@DESKTOP-CPK0PUB:~/Guvi_DevOps$ git add .; git commit -m "04_Network_Task"; git push origin main
+  - [main 47fde69] 04_Network_Task
+  - 1 file changed, 73 insertions(+)
+  - create mode 100644 04_Network_Task/Network_Task.md
+  - Enumerating objects: 5, done.
+  - Counting objects: 100% (5/5), done.
+  - Delta compression using up to 8 threads
+  - Compressing objects: 100% (3/3), done.
+  - Writing objects: 100% (4/4), 1.50 KiB | 1.50 MiB/s, done.
+  - Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+  - remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+  - To https://github.com/StarGithMd/Guvi_Class.git
+     - 5c10dd9..47fde69  main -> main
+
+- md_rustam@DESKTOP-CPK0PUB:~/Guvi_DevOps$ git status
+  - On branch main
+  - nothing to commit, working tree clean
