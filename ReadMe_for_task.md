@@ -30,3 +30,36 @@
 
 #### Asghned task will be a file "ReadMe_for_task" into every directory.
 *********************************************************************************************************************************
+
+#### Pushed the file to the GitHub repository "Guvi_Class" successfully. 
+
+##### md_rustam@DESKTOP-CPK0PUB:~/Guvi_DevOps$ ls -l
+##### total 4
+##### -rw-rw-r-- 1 md_rustam md_rustam 1497 Apr 21 18:39 ReadMe_for_task.md
+
+##### md_rustam@DESKTOP-CPK0PUB:~/Guvi_DevOps$ git add .; git commit -m "ReadMe_for_task."
+##### [main 0d8249f] ReadMe_for_task.
+ ##### 1 files changed, 32 insertions(+), 0 deletion(-)
+ ##### create mode 100644 ReadMe_for_task.md
+ 
+##### md_rustam@DESKTOP-CPK0PUB:~/Guvi_DevOps$ ls -l
+##### total 4
+##### -rw-rw-r-- 1 md_rustam md_rustam 1497 Apr 21 18:39 ReadMe_for_task.md
+
+##### md_rustam@DESKTOP-CPK0PUB:~/Guvi_DevOps$ git status
+##### On branch main
+##### nothing to commit, working tree clean
+
+##### md_rustam@DESKTOP-CPK0PUB:~/Guvi_DevOps$ git push origin main
+##### Enumerating objects: 4, done.
+##### Counting objects: 100% (4/4), done.
+##### Delta compression using up to 8 threads
+##### Compressing objects: 100% (2/2), done.
+##### Writing objects: 100% (3/3), 960 bytes | 960.00 KiB/s, done.
+##### Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+##### To https://github.com/StarGithMd/Guvi_Class.git
+   ##### 091749b..0d8249f  main -> main
+   
+##### md_rustam@DESKTOP-CPK0PUB:~/Guvi_DevOps$ git status
+##### On branch main
+##### nothing to commit, working tree clean   
