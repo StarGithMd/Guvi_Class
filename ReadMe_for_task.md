@@ -20,7 +20,6 @@
   - 13	Module_13: Ansible	
   - 14	Module_14: Cloudformation	
   - 15	Module_15: Prometheus & Grafana	
-	
 
 - Online Learning platform and recorded classes:  Links: https://v2.zenclass.in/dashboard
 
