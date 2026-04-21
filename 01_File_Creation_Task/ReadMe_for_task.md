@@ -47,3 +47,31 @@
 - [G] Print the latest created top 5 files among the total no of files
   - ls -R
   - ls -lt | head -5
+  
+  
+ **************************************************************************************************************************************************
+  
+- md_rustam@DESKTOP-CPK0PUB:~/Guvi_DevOps$ ls -l
+  - total 8
+  - drwxrwxr-x 2 md_rustam md_rustam 4096 Apr 21 19:09 01_File_Creation_Task
+  - -rw-rw-r-- 1 md_rustam md_rustam 2837 Apr 21 19:06 ReadMe_for_task.md
+
+- md_rustam@DESKTOP-CPK0PUB:~/Guvi_DevOps$ git add .; git commit -m "01_File_Creation_Task"
+  - [main 68535ab] 01_File_Creation_Task
+  - 2 files changed, 49 insertions(+)
+  - create mode 100644 01_File_Creation_Task/ReadMe_for_task.md
+  - create mode 100644 01_File_Creation_Task/SnapShot.jpg
+  
+- md_rustam@DESKTOP-CPK0PUB:~/Guvi_DevOps$ git push origin main
+  - Enumerating objects: 6, done.
+  - Counting objects: 100% (6/6), done.
+  - Delta compression using up to 8 threads
+  - Compressing objects: 100% (5/5), done.
+  - Writing objects: 100% (5/5), 531.21 KiB | 31.25 MiB/s, done.
+  - Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+  - To https://github.com/StarGithMd/Guvi_Class.git
+  - 5e10c29..68535ab  main -> main
+  
+- md_rustam@DESKTOP-CPK0PUB:~/Guvi_DevOps$ git status
+  - On branch main
+  - nothing to commit, working tree clean
