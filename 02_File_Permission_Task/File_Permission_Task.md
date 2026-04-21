@@ -58,3 +58,32 @@
         - new file:   02_File_Permission_Task/File_Permission_Task.md
         - new file:   02_File_Permission_Task/SnapShot.jpg
         - modified:   ReadMe_for_task.md
+
+**********************************************************************************************************************
+- md_rustam@DESKTOP-CPK0PUB:~/Guvi_DevOps$ ls -l
+  - total 20
+  - drwxrwxr-x 2 md_rustam md_rustam 4096 Apr 21 19:09 01_File_Creation_Task
+  - drwxrwxr-x 2 md_rustam md_rustam 4096 Apr 21 19:49 02_File_Permission_Task
+  - drwxrwxr-x 2 md_rustam md_rustam 4096 Apr 21 21:11 03_Scripting_Task
+  - -rw-rw-r-- 1 md_rustam md_rustam 2744 Apr 21 19:26 ReadMe_for_task.md
+  - -rw-r--r-- 1 md_rustam md_rustam   19 Apr 21 21:12 input.txt
+  
+- md_rustam@DESKTOP-CPK0PUB:~/Guvi_DevOps$ git add .; git commit -m "03_Scripting_Task"; git push origin main
+  - [main 147f79f] 03_Scripting_Task
+  - 3 files changed, 111 insertions(+)
+   - create mode 100644 03_Scripting_Task/Scripting_Task.md
+   - create mode 100644 03_Scripting_Task/Scripting_Task_SnapShot.jpg
+   - create mode 100644 input.txt
+   - Enumerating objects: 7, done.
+   - Counting objects: 100% (7/7), done.
+   - Delta compression using up to 8 threads
+  -Compressing objects: 100% (5/5), done.
+  - Writing objects: 100% (6/6), 1011.99 KiB | 29.76 MiB/s, done.
+  - Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+  - remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+  - To https://github.com/StarGithMd/Guvi_Class.git
+    - 44326d1..147f79f  main -> main
+	
+- md_rustam@DESKTOP-CPK0PUB:~/Guvi_DevOps$ git status
+  - On branch main
+  - nothing to commit, working tree clean
