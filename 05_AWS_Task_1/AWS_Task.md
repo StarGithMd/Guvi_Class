@@ -67,3 +67,25 @@
    - Use the key pair to decrypt the Administrator password.
 
 - Open the RDP file in Windows Remote Desktop, enter the decrypted password, and connect.
+   - Collected systeminfo logs
+
+******************************************************************************************************************************
+
+- md_rustam@DESKTOP-CPK0PUB:~/Guvi_DevOps$ git add .; git commit -m "03_Scripting_Task-"; git push origin main
+   - [main 4b5661d] 03_Scripting_Task-
+   - 3 files changed, 118 insertions(+)
+   - create mode 100644 05_AWS_Task_1/AWS_Task.md
+   - create mode 100644 05_AWS_Task_1/SnapShot_1.jpg
+   - create mode 100644 05_AWS_Task_1/systeminfo_log.txt
+   - Enumerating objects: 7, done.
+   - Counting objects: 100% (7/7), done.
+   - Delta compression using up to 8 threads
+   - Compressing objects: 100% (6/6), done.
+   - Writing objects: 100% (6/6), 2.34 MiB | 1.18 MiB/s, done.
+   - Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+   - remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+   - To https://github.com/StarGithMd/Guvi_Class.git
+     - bffee51..4b5661d  main -> main
+- md_rustam@DESKTOP-CPK0PUB:~/Guvi_DevOps$ git status
+  - On branch main
+  - nothing to commit, working tree clean
