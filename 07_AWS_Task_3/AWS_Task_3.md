@@ -19,6 +19,7 @@
    - NOTE: Any violation of Terms and conditions is strictly prohibited. You are bound to adhere to it.
 
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
 #### Task Description:
 
 ### 01_Q. Create a S3 bucket, with no public access and upload files to the bucket & view the logs using cloudwatch for the uploaded files.
