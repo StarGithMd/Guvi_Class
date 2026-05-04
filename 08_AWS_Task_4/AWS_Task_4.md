@@ -24,7 +24,7 @@ https://docs.google.com/document/d/11a2HCpdG2K088lnPoAU43q6jtLn0Pvc52EX3y8LLTsA/
 #### Task Description:
 - 01_Q. Launch an EC2 instance (Linux and Windows) along with a web server. Then, create an EBS volume of 5 GB, attach it to an EC2 machine (Linux and Windows), and take a snapshot. Finally, create an EBS volume using the taken snapshot.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ GUVI Assignment 08 Task-4 Activity_01 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ GUVI Assignment 08 Task-4 Activity_01 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #### The following points were observed before carrying out the activity to complete the assigned task.
 - Verify the accessibility and configuration of the AWS CLI on the source system from which intend to access AWS console services.
